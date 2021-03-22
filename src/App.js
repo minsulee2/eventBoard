@@ -1,8 +1,11 @@
 import React from 'react';
+import HistoryTable from './components/HistoryTable';
 
 const App = () => {
   return (
-    <div>nothing</div>
+    <HistoryTable>
+      aa
+    </HistoryTable>
   );
 };
 
