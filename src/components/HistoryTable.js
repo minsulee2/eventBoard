@@ -24,11 +24,11 @@ const Content = styled.div`
   background: white;
 `;
 
-const HistoryTable = () => {
+const HistoryTable = ({ children }) => {
   return (
     <HistoryTableWrapper>
       <Title>Comcom History</Title>
-      <Content />
+      <Content>{children}</Content>
     </HistoryTableWrapper>
   );
 };
