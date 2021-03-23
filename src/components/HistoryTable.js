@@ -30,7 +30,7 @@ const HistoryTable = () => {
       <Title>Comcom History</Title>
       <Content />
     </HistoryTableWrapper>
-  )
-}
+  );
+};
 
 export default HistoryTable;
